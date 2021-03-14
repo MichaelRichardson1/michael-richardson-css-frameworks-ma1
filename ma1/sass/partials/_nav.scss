@@ -1,0 +1,15 @@
+.bgcustom {
+    background-color: getColour(header-tile) !important;
+}
+
+.navbar__link--active {         
+    color: getColour(border-fill) !important;        
+}
+
+.navbar-nav {
+    padding-right: 3rem;
+}
+
+.navbar-collapse {
+    padding-left: 3rem;
+}

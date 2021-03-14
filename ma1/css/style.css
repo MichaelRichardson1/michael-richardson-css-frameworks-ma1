@@ -1,0 +1,130 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #e5e5e5;
+  margin: 0;
+  height: 100%;
+}
+
+footer {
+  background: #f4f3ee;
+  color: #6a6a6a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media only screen and (max-width: 410px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.bgcustom {
+  background-color: #f4f3ee !important;
+}
+
+.navbar__link--active {
+  color: #c32c72 !important;
+}
+
+.navbar-nav {
+  padding-right: 3rem;
+}
+
+.navbar-collapse {
+  padding-left: 3rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #6a6a6a;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+.container {
+  width: 99%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.container.bottom {
+  margin-bottom: 100px;
+}
+
+.variant-one {
+  height: 250px;
+  width: 250px;
+  background-color: #f4f3ee;
+  border-radius: 10px;
+  border: none;
+  margin: 15px;
+}
+
+.variant-two {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #c32c72;
+  margin: 15px;
+}
+
+.variant-three {
+  height: 250px;
+  width: 250px;
+  background-color: #c32c72;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin: 15px;
+}
+/*# sourceMappingURL=style.css.map */

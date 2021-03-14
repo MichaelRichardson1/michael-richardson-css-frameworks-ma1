@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: getColour(bg-gray);
+    margin: 0;
+    height: 100%;
+}
+
+footer {
+    background: getColour(header-tile);        
+    color: getColour(heading-gray);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;        
+    margin: 0 auto; 
+    padding: 1rem; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media only screen and (max-width: 410px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

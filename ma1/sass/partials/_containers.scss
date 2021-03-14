@@ -1,0 +1,44 @@
+.container {
+    width: 99%;
+    display: flex;    
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+    margin: auto;  
+    
+    &.bottom {
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+.variant-one {
+    height: 250px;
+    width: 250px;
+    background-color: getColour(header-tile);
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+}
+
+.variant-two {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid getColour(border-fill);
+    margin: 15px;
+}
+
+.variant-three {
+    height: 250px;
+    width: 250px;
+    background-color: getColour(border-fill);
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 15px;
+}
+
+
